@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quiz Interactivo: La Antigua Grecia</title>
+  <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+  <header>
+    <h1>Quiz Interactivo: La Antigua Grecia</h1>
+  </header>
+  <nav>
+    <ul>
+      <li><a href="../index.html">Inicio</a></li>
+      <li><a href="../info/organizacion.html">Información</a></li>
+      <li><a href="quiz.html">Quiz</a></li>
+    </ul>
+  </nav>
+  <main>
+    <section id="quiz-section">
+      <!-- Contenedor inicial para iniciar el quiz -->
+      <div id="start-container" class="animated fade-in">
+        <button id="start-quiz">Iniciar Quiz</button>
+      </div>
+      
+      <!-- Contenedor del quiz (oculto al inicio) -->
+      <div id="quiz-container" class="animated fade-in" style="display:none;">
+        <div id="question-container">
+          <!-- Aquí se cargará cada pregunta con sus opciones -->
+        </div>
+        <button id="next-btn" style="display:none;">Siguiente</button>
+      </div>
+
+      <!-- Contenedor para mostrar el resultado final -->
+      <div id="result-container" class="animated fade-in" style="display:none;">
+        <h2>Resultado</h2>
+        <p id="score-text"></p>
+        <button id="retry-quiz">Reintentar Quiz</button>
+      </div>
+    </section>
+  </main>
+  <script src="../js/quiz.js"></script>
+</body>
+</html>

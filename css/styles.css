@@ -1,0 +1,227 @@
+/* Importar fuentes desde Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Comic+Neue:wght@400;700&display=swap');
+
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Estilo global del body */
+body {
+  font-family: 'Comic Neue', sans-serif;
+  background: linear-gradient(135deg, #ff9a9e, #fad0c4);
+  color: #333;
+  font-size: 18px; /* Tamaño base de fuente mayor */
+  line-height: 1.6;
+}
+
+/* Encabezado principal */
+header {
+  text-align: center;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.8);
+  margin-bottom: 20px;
+  border-bottom: 2px solid #ff6f61;
+}
+
+header h1 {
+  font-family: 'Fredoka One', cursive;
+  font-size: 2.5em;
+  color: #ff6f61;
+  margin-bottom: 10px;
+}
+
+header h4 {
+  font-family: 'Comic Neue', sans-serif;
+  font-size: 1.5em;
+  color: #555;
+}
+
+/* Menú de navegación */
+nav {
+  background-color: #ff6f61;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-family: 'Comic Neue', sans-serif;
+  font-size: 1.1em;
+  transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+  color: #ffe0b2;
+}
+
+/* Contenedor principal */
+main {
+  width: 100%; /* Ocupa toda la pantalla */
+  margin: 0;   /* Sin márgenes laterales */
+  padding: 20px;
+}
+
+/* Artículo y secciones */
+article {
+  margin-bottom: 20px;
+}
+
+section {
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+  font-family: 'Fredoka One', cursive;
+  font-size: 2em;
+  color: #ff6f61;
+  margin-bottom: 15px;
+}
+
+/* Listados y enlaces dentro de secciones */
+section ul {
+  list-style: none;
+  padding: 0;
+}
+
+section ul li {
+  margin-bottom: 10px;
+}
+
+section ul li a {
+  font-size: 1.3em; /* Letra más grande para los listados */
+  color: #ff6f61;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+section ul li a:hover {
+  color: #ff8a75;
+}
+
+/* Contenedores para imágenes */
+.img-container {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.info-image {
+  max-width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Botones */
+button {
+  background-color: #ff6f61;
+  color: #fff;
+  border: none;
+  border-radius: 50px;
+  padding: 10px 20px;
+  font-size: 1.2em;
+  cursor: pointer;
+  font-family: 'Comic Neue', sans-serif;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+  background-color: #ff8a75;
+  transform: scale(1.05);
+}
+
+/* Enlaces con apariencia de botón */
+a.button {
+  display: inline-block;
+  background-color: #ff6f61;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 50px;
+  text-decoration: none;
+  font-size: 1.2em;
+  font-family: 'Comic Neue', sans-serif;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+a.button:hover {
+  background-color: #ff8a75;
+  transform: scale(1.05);
+}
+
+/* Estilo del pie de página */
+footer {
+  text-align: center;
+  padding: 15px;
+  background-color: #ff6f61;
+  color: #fff;
+  font-family: 'Comic Neue', sans-serif;
+}
+
+/* ----- Estilos para el Quiz (resaltar la opción seleccionada) ----- */
+.option {
+  cursor: pointer;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  margin: 8px 0;
+  padding: 10px;
+  border-radius: 8px;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.option:hover {
+  background-color: #ffe0b2;
+}
+
+.option.selected {
+  background-color: #ffd05c;
+  border: 2px solid #ff6f61;
+  transform: scale(1.02);
+}
+
+/* Ajustes responsivos */
+@media (max-width: 768px) {
+  header h1 {
+    font-size: 2em;
+  }
+  
+  nav ul {
+    flex-direction: column;
+  }
+  
+  nav ul li {
+    margin: 10px 0;
+  }
+}
+/* Mejorar el hover de los enlaces y textos clicables */
+a:hover,
+nav ul li a:hover,
+.content-wrapper ul li a:hover,
+section ul li a:hover {
+  color: #fff;
+  transform: scale(1.05);
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease, color 0.3s ease, text-shadow 0.3s ease;
+}
+
+/* Mejorar el hover de las opciones del Quiz */
+.option:hover {
+  background-color: #ffceb5; /* Color de fondo más claro en hover */
+  transform: scale(1.05);
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+}
