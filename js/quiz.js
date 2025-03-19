@@ -355,32 +355,35 @@ document.addEventListener("DOMContentLoaded", function() {
     {
       question: "¿Qué actividad era el pilar de la economía griega?",
       options: [
-        "La agricultura",
+        
         "La cacería de animales salvajes",
         "La construcción de pirámides",
+        "La agricultura",
         "La minería de uranio"
       ],
-      correctAnswer: 0
+      correctAnswer: 2
     },
     {
       question: "¿Qué productos obtenían de la agricultura?",
       options: [
-        "Cereales, aceitunas, uvas y hortalizas",
+        
         "Bananas y piñas",
+        "Cereales, aceitunas, uvas y hortalizas",
         "Solo trigo",
         "Nada, el suelo era estéril"
       ],
-      correctAnswer: 0
+      correctAnswer: 1
     },
     {
       question: "¿Qué hacían los pescadores en las costas griegas?",
       options: [
-        "Capturaban peces y comerciaban con ellos",
+        
         "Navegaban al Polo Norte",
         "Buscaban perlas para los sacerdotes",
-        "Solo pescaban para la familia real"
+        "Solo pescaban para la familia real",
+        "Capturaban peces y comerciaban con ellos",
       ],
-      correctAnswer: 0
+      correctAnswer: 3
     },
     {
       question: "¿Qué tipo de objetos fabricaban los artesanos griegos?",
@@ -405,22 +408,24 @@ document.addEventListener("DOMContentLoaded", function() {
     {
       question: "¿Qué función tenía la minería en la actividad económica griega?",
       options: [
-        "Producía metales para acuñar monedas y fabricar armas",
+        
         "No era relevante",
         "Solo se minaban joyas para los templos",
+        "Producía metales para acuñar monedas y fabricar armas",
         "Estaba dedicada a buscar tesoros mitológicos"
       ],
-      correctAnswer: 0
+      correctAnswer: 2
     },
     {
       question: "¿Cómo se transportaban los productos entre ciudades costeras?",
       options: [
-        "Principalmente en barcos de vela",
+        
         "En trenes subterráneos",
+        "Principalmente en barcos de vela",
         "En caravanas de elefantes",
         "No se transportaban productos"
       ],
-      correctAnswer: 0
+      correctAnswer: 1
     },
     {
       question: "¿Qué actividades complementaban la agricultura en Grecia?",
@@ -445,22 +450,24 @@ document.addEventListener("DOMContentLoaded", function() {
     {
       question: "¿Cómo beneficiaba la diversidad de actividades económicas a la polis?",
       options: [
-        "Evitaba depender de un solo producto y fomentaba el intercambio",
+        
         "Generaba caos y competencia desleal",
         "No tenía ninguna ventaja",
-        "Disminuía el comercio"
+        "Disminuía el comercio",
+        "Evitaba depender de un solo producto y fomentaba el intercambio",
       ],
-      correctAnswer: 0
+      correctAnswer: 3
     },
     {
       question: "¿Qué otro producto se elaboraba además del aceite de oliva?",
       options: [
-        "Vino a partir de uvas",
+        
         "Azúcar refinada",
         "Chocolate",
-        "Especias de la India"
+        "Especias de la India",
+        "Vino a partir de uvas",
       ],
-      correctAnswer: 0
+      correctAnswer: 3
     },
     // --- CULTURA Y RELIGIÓN (11) ---
     {
@@ -486,22 +493,24 @@ document.addEventListener("DOMContentLoaded", function() {
     {
       question: "¿Qué importancia tenía el Partenón?",
       options: [
-        "Era un templo dedicado a la diosa Atenea",
+        
         "Funcionaba como granero",
         "Almacenaba armas de guerra",
+        "Era un templo dedicado a la diosa Atenea",
         "Era la casa de los esclavos"
       ],
-      correctAnswer: 0
+      correctAnswer: 2
     },
     {
       question: "¿Qué enseñaban los mitos de dioses y héroes griegos?",
       options: [
-        "Valores, virtudes y ejemplos de conducta",
+        
         "Solo eran cuentos de terror",
+        "Valores, virtudes y ejemplos de conducta",
         "No se transmitían a la gente",
         "Eran guías de estrategia militar"
       ],
-      correctAnswer: 0
+      correctAnswer: 1
     },
     {
       question: "¿Qué tipo de obras se presentaban en el teatro griego?",
@@ -516,22 +525,24 @@ document.addEventListener("DOMContentLoaded", function() {
     {
       question: "¿Por qué eran importantes las fiestas religiosas en Grecia?",
       options: [
-        "Unían a la comunidad y honraban a los dioses",
+        
         "Se usaban solo para castigar a los criminales",
         "Eran restringidas a los extranjeros",
-        "No se celebraban en la polis"
+        "No se celebraban en la polis",
+        "Unían a la comunidad y honraban a los dioses",
       ],
-      correctAnswer: 0
+      correctAnswer: 3
     },
     {
       question: "¿Qué papel tuvo la filosofía en la cultura griega?",
       options: [
-        "Promover el pensamiento crítico y el razonamiento",
+        
         "Fue prohibida por los gobernantes",
         "Se limitaba a la clase militar",
+        "Promover el pensamiento crítico y el razonamiento",
         "No tuvo relevancia"
       ],
-      correctAnswer: 0
+      correctAnswer: 2
     },
     {
       question: "¿Qué instrumentos musicales eran comunes en Grecia?",
@@ -546,12 +557,12 @@ document.addEventListener("DOMContentLoaded", function() {
     {
       question: "¿Cómo se relacionaba la religión con la vida diaria griega?",
       options: [
-        "Los dioses y diosas estaban presentes en rituales y celebraciones cotidianas",
         "No existía relación alguna",
         "Solo los sacerdotes conocían a los dioses",
-        "Estaba prohibido rendir culto en público"
+        "Estaba prohibido rendir culto en público",
+        "Los dioses y diosas estaban presentes en rituales y celebraciones cotidianas",
       ],
-      correctAnswer: 0
+      correctAnswer: 3
     },
     {
       question: "¿Qué enseñaban grandes pensadores como Sócrates, Platón y Aristóteles?",
@@ -566,23 +577,25 @@ document.addEventListener("DOMContentLoaded", function() {
     {
       question: "¿Qué función tenía el Oráculo de Delfos?",
       options: [
-        "Dar respuestas divinas y profecías",
+        
         "Servir como almacén de granos",
         "Formar soldados espartanos",
+        "Dar respuestas divinas y profecías",
         "Crear obras de teatro"
       ],
-      correctAnswer: 0
+      correctAnswer: 2
     },
     // --- LEGADO (11) ---
     {
       question: "¿Qué idea política surgida en Atenas sigue siendo influyente hoy?",
       options: [
-        "La democracia",
+        
         "La tiranía",
         "La monarquía absoluta",
-        "El totalitarismo"
+        "El totalitarismo",
+        "La democracia",
       ],
-      correctAnswer: 0
+      correctAnswer: 3
     },
     {
       question: "¿Cómo han influido los templos griegos en la arquitectura moderna?",
@@ -607,12 +620,13 @@ document.addEventListener("DOMContentLoaded", function() {
     {
       question: "¿Qué juegos se celebraban en Olimpia cada cuatro años?",
       options: [
-        "Los Juegos Olímpicos",
+        
         "La Copa del Mundo",
+        "Los Juegos Olímpicos",
         "Las Panateneas",
         "Las carreras de carros en Roma"
       ],
-      correctAnswer: 0
+      correctAnswer: 1
     },
     {
       question: "¿Cómo aportaron los griegos a las ciencias?",
@@ -627,12 +641,13 @@ document.addEventListener("DOMContentLoaded", function() {
     {
       question: "¿Qué influencia tuvo la filosofía griega en el pensamiento occidental?",
       options: [
-        "Fundamentó la lógica, la ética y la política",
+        
         "No fue estudiada jamás",
         "Se aplicó solo en Esparta",
-        "Fue rechazada en toda Europa"
+        "Fue rechazada en toda Europa",
+        "Fundamentó la lógica, la ética y la política"
       ],
-      correctAnswer: 0
+      correctAnswer: 3
     },
     {
       question: "¿Qué valoraban los griegos para construir una sociedad más justa?",
@@ -657,32 +672,35 @@ document.addEventListener("DOMContentLoaded", function() {
     {
       question: "¿Por qué los Juegos Olímpicos antiguos son parte del legado cultural?",
       options: [
-        "Fomentaban la competencia pacífica y la unidad entre polis",
+        
         "Eran luchas a muerte",
+        "Fomentaban la competencia pacífica y la unidad entre polis",
         "Se realizaban cada mes",
         "Los organizaban los persas"
       ],
-      correctAnswer: 0
+      correctAnswer: 1
     },
     {
       question: "¿Qué enseñanza dejó la democracia ateniense para el mundo moderno?",
       options: [
-        "La idea de que los ciudadanos pueden participar en las decisiones",
+        
         "Que solo un rey debe gobernar",
         "Que no se deben tener leyes",
+        "La idea de que los ciudadanos pueden participar en las decisiones",
         "Que la libertad no es relevante"
       ],
-      correctAnswer: 0
+      correctAnswer: 2
     },
     {
       question: "¿Por qué se considera que el legado griego sigue vivo hoy?",
       options: [
-        "Sus ideas en política, arte y ciencia aún influyen en nuestra sociedad",
+        
         "Ya no existe ninguna otra cultura",
         "Los griegos no dejaron huella",
-        "Se mantuvo todo en secreto hasta el siglo XX"
+        "Se mantuvo todo en secreto hasta el siglo XX",
+        "Sus ideas en política, arte y ciencia aún influyen en nuestra sociedad",
       ],
-      correctAnswer: 0
+      correctAnswer: 3
     }
   ];
 
